@@ -34,6 +34,8 @@ Si no esta activo cuando ejecute vgscan debe ejecutar.
 	$lvscan --ignorelockingfailure
 	$fsck -y /dev/VolumeGroup/LVname
 
+```
+
 Forzara chequear los bloques malos y automaticametne repararlos. Si luego sigue teniendo problemas es motivado ya a fallas irreparables del HDD.
 
 ```
