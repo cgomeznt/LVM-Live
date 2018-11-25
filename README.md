@@ -36,7 +36,7 @@ Si no esta activo cuando ejecute vgscan debe ejecutar.
 
 ```
 
-Forzara chequear los bloques malos y automaticametne repararlos. Si luego sigue teniendo problemas es motivado ya a fallas irreparables del HDD.
+Forzara chequear los bloques malos y automaticamente repararlos. Si luego sigue teniendo problemas es motivado ya a fallas irreparables del HDD.
 
 ```
 	fsck -pvcf/dev/VGroup/vg-home
