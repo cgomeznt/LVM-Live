@@ -25,6 +25,7 @@ Si no esta activo cuando ejecute vgscan debe ejecutar.
 	# vgchange -a y
 	  3 logical volume(s) in volume group "VGroup" now active
 
+```
 
 ## Verificar un volumen con fsck
 
