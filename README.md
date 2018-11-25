@@ -24,3 +24,16 @@ Si no esta activo cuando ejecute vgscan debe ejecutar.
 ```
 	# vgchange -a y
 	  3 logical volume(s) in volume group "VGroup" now active
+
+
+## Verificar un volumen con fsck
+
+```
+	$vgchange --ignorelockingfailure -ay
+	$lvscan --ignorelockingfailure
+	$fsck -y /dev/VolumeGroup/LVname
+
+Forzara chequear los bloques malos y automaticametne repararlos. Si luego sigue teniendo problemas es motivado ya a fallas irreparables del HDD.
+
+```
+	fsck -pvcf/dev/VGroup/vg-home
